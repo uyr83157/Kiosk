@@ -86,7 +86,7 @@ public class Kiosk {
     // 1.버거 ~ 3.디저트 까진 과정이 동일 하므로 menuDisplay 메서드로 통일화
     private void menuDisplay(List<MenuItem> items, String category) {
         System.out.println(" ");
-        System.out.println("[ " + category + " MENU ]");
+        System.out.println("[ " + category.toUpperCase() + " MENU ]");
         for (int i = 0; i < items.size(); i++) {
             System.out.println((i + 1) + ". " + items.get(i));
         }
