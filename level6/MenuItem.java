@@ -14,6 +14,12 @@ public class MenuItem {
         this.description = description;
     }
 
+    // 총 금액 계산 확인용 Getter
+    public double getPrice() {
+        return price;
+    }
+
+
     // toString 재정의
     @Override
     public String toString() {
