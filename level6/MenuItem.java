@@ -19,6 +19,11 @@ public class MenuItem {
         return price;
     }
 
+    // 장바구니 삭제용 Getter
+    public String getFoodName() {
+        return foodName;
+    }
+
 
     // toString 재정의
     @Override
